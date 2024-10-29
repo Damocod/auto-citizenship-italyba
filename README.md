@@ -29,7 +29,7 @@ git clone https://github.com/Damocod/auto-citizenship-italyba.git
 4. Remember to save any changes made to `config.ini` before proceeding.
 
 ## Running the Bot:
-1. After making the necessary configurations, run the `.exe` file (if it was already running, close it and run it again).
+1. After making the necessary configurations, run `main.py` (or the executable `.exe` file). If it was already running, close it and run it again.
 2. The bot will attempt to access the appointment page in the Chrome browser continuously until it succeeds (at which point **the user must continue the process manually**) or until it is closed by the user.
 
 ## Notes
@@ -37,6 +37,8 @@ git clone https://github.com/Damocod/auto-citizenship-italyba.git
 - I don't know if Prenot@Mi has any policy and/or system that punishes the use of bots or even the repeated and constant attempts to access the appointment request page. Use this bot at your own risk.
 ---
 
+Chiao (°◡°)
+
 This project is licensed under the MIT License.
 
-© Auto-Citizenship - ItalyBA. All Rights Reserved.
+© 2024 Auto-Citizenship - ItalyBA. All Rights Reserved.

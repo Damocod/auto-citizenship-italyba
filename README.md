@@ -3,11 +3,11 @@
 Python bot to help the user find available appointments for the Italian citizenship reconstruction procedure at the Italian Consulate in Buenos Aires, Argentina, through **Prenot@Mi** website. 
 
 ## Requirements:
-- **Windows Operating System** (I only tested on Windows 10)
-- **Google Chrome** (I only tested on versión 129.0.6668.90 - Official Build - 64 bits)
+- **Operating System:** I've tested only on Windows 10
+- **Google Chrome:** I've tested only on versión 129.0.6668.90 - Official Build - 64 bits
 - **Internet Access** (Required to access the appointment booking website)
-- Ensure that the `.exe` file and `config.ini` are **in the same folder**
-- Before running this bot for the first time, some **configuration** needs to be done.
+- Ensure that `main.py` (or the `.exe` file) and `config.ini` are **in the same folder**
+- Before running this bot for the first time, some [**configuration**](#configuration) needs to be done.
 
 ## Clone or Download
 

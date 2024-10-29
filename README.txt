@@ -11,6 +11,7 @@ Requirements:
 - Before running this bot for the first time, some configuration needs to be done.
 
 Configuration:
+- Rename config.ini.example file to config.ini if it is not done yet.
 - Open config.ini with a text editor.
 - Set your Prenotami credentials and any other configurations.
 - The media file that can be chosen in config.ini works as an alarm
@@ -25,8 +26,6 @@ Running the Bot:
   or until it is closed by the user.
 
 Note: Most errors encountered are due to issues with Prenotami and not the bot itself.
-
-Why are the bot and this file in English? Who knows. (°◡°)
 
 Ciao.
 

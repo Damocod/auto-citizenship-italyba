@@ -17,7 +17,7 @@ Python bot to help the user find available appointments for the Italian citizens
 git clone https://github.com/Damocod/auto-citizenship-italyba.git
 ```
 ### Download
-- [Source code as ZIP file]("https://github.com/Damocod/auto-citizenship-italyba/archive/refs/heads/main.zip)
+- [Source code as ZIP file](https://github.com/Damocod/auto-citizenship-italyba/archive/refs/heads/main.zip)
 - [Executable version](https://github.com/Damocod/auto-citizenship-italyba/releases)
 
 ## Configuration:

@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto-Citizenship - ItalyBA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Poppins, sans-serif;
             margin: 20px;
             line-height: 1.6;
             background-color: #181818;
@@ -44,7 +45,20 @@
             padding: 10px;
             border-radius: 5px;
             overflow-x: auto;
+            font-family: monospace;
         }
+
+        code {
+            background: #333;
+            /* Darker background for code */
+            color: #f0f0f0;
+            /* Light text color */
+            padding: 5px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: monospace;
+        }
+        
 
         footer {
             text-align: center;
@@ -62,6 +76,16 @@
             text-decoration: underline;
             /* Underline on hover */
         }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .note {
+            font-style: italic;
+            color: #ffffff4d;
+            margin: 3px 20px;
+        }
     </style>
 </head>
 
@@ -70,36 +94,61 @@
     <header>
         <h1>Auto-Citizenship - ItalyBA</h1>
     </header>
-
     <section>
         <h2>About</h2>
-        <p>Python bot for booking Italian citizenship reconstruction appointments at the Buenos Aires Consulate.
-        <br>To visit the main branch in github <a href="https://github.com/Damocod/auto-citizenship-italyba">click here</a>.</p>
+        <p>Python bot to help the user find available appointments for the Italian citizenship reconstruction procedure at
+            the Italian Consulate in Buenos Aires, Argentina, through <strong>Prenot@Mi</strong> website.</p>
+        <p>To visit the main branch in github <a href= "https://github.com/Damocod/auto-citizenship-italyba">click here</a>.</p>
 
-        <h2>Requirements:</h2>
+        <h2>Requirements</h2>
         <ul>
-            <li><strong>Windows Operating System:</strong> Tested on Windows 10</li>
-            <li><strong>Google Chrome:</strong> Tested on version 129.0.6668.90 (Official Build - 64 bits)</li>
-            <li><strong>Internet Access:</strong> Required to access the appointment booking website</li>
+            <li><strong>Operating System:</strong> I've tested it only on Windows 10</li>
+            <li><strong>Google Chrome:</strong> I've tested it only on version 129.0.6668.90 - Official Build - 64 bits</li>
+            <li><strong>Internet Access</strong> (Required to access the appointment booking website)</li>
+            <li>Ensure that <code>main.py</code> (or the <code>.exe</code> file) and <code>config.ini</code> are <strong>in the same folder</strong></li>
+            <li>Before running this bot for the first time, some <a href="#configuration">configuration</a> needs to be done.</li>
         </ul>
 
-        <h2>Get it</h2>
+        <h2>Clone or Download</h2>
+
+        <h3>Clone</h3>
+        <pre><code>git clone https://github.com/Damocod/auto-citizenship-italyba.git</code></pre>
+
+        <h3>Download</h3>
         <ul>
-            <li><strong>Option 1:</strong> Clone</li>
-            <pre><code>git clone https://github.com/Damocod/auto-citizenship-italyba.git</code></pre>
-            <li><strong>Option 2:</strong> <a
-                    href="https://github.com/Damocod/auto-citizenship-italyba/archive/refs/heads/main.zip">Download
-                    source as ZIP</a></li>
-            <li><strong>Option 3:</strong> <a
-                    href="https://github.com/Damocod/auto-citizenship-italyba/releases">Download an executable version</a>
+            <li><a href="https://github.com/Damocod/auto-citizenship-italyba/archive/refs/heads/main.zip">Source code as ZIP
+                    file</a></li>
+            <li><a href="https://github.com/Damocod/auto-citizenship-italyba/releases">Executable version</a></li>
+        </ul>
+
+        <h2 id="configuration">Configuration</h2>
+        <ol>
+            <li>If you see <code>config.ini.example</code> file, rename it to <code>config.ini</code>.</li>
+            <li>Open <code>config.ini</code> with a text editor.</li>
+            <li>Set your Prenot@Mi credentials and any other configurations.</li>
+            <blockquote class="note">The media file that can be chosen in <code>config.ini</code> works as an alarm that
+                activates when an available appointment is found, to get your attention in case you are not looking at the
+                window in which the bot is operating.</blockquote>
+            <li>Remember to save any changes made to <code>config.ini</code> before proceeding.</li>
+        </ol>
+
+        <h2>Running the Bot</h2>
+        <ol>
+            <li>After making the necessary configurations, run <code>main.py</code> (or the executable <code>.exe</code>
+                file). If it was already running, close it and run it again.</li>
+            <li>The bot will attempt to access the appointment page in the Chrome browser continuously until it succeeds (at
+                which point <strong>the user must continue the process manually</strong>) or until it is closed by the user.
             </li>
+        </ol>
+
+        <h2>Notes</h2>
+        <ul>
+            <li>Most errors encountered are due to issues with the Prenot@Mi website and not the bot itself.</li>
+            <li>Note: Use this bot at your own risk, as repeated access attempts may have consequences with Prenot@Mi.</li>
         </ul>
-
-        <h2>How to use it</h2>
-        <p>Once downloaded or cloned read the README file and follow its instructions.</p>
     </section>
-
     <footer>
+        <p>Ciao (°◡°)</p>
         <p>This project is licensed under the MIT License.</p>
         <p>&copy; 2024 Auto-Citizenship - ItalyBA. All Rights Reserved.</p>
     </footer>

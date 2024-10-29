@@ -1,0 +1,26 @@
+Possible ideas to implement.
+
+• Automate the filling of the appointment reservation as much as possible.
+
+  • CALENDAR  
+
+    • MONTH YEAR:
+      At the top of the calendar are 3 buttons:  [<] [month year] [>]
+      I think [month year] button displays a menu of month, may be with their abbreviations.
+      The element code is: <th class="picker-switch" data-action="pickerSwitch" colspan="5" title="Select Month">novembre 2024</th>
+      May be the script can click it, and select a given month (actually novembre)
+      Else → try with [>]
+
+    • AVAILABLE DAY:
+      Once in the correct month, the available day element code is: <td data-action="selectDay" data-day="12/11/2024" class="day active">12</td>
+    
+    • SCHEDULE
+      I think that the shcedule is automatically selected
+      Else → Study its elements:
+        <li data-date="year-month-selected day" class=""></li>
+        <div class="dot "></div> with background-color: #008000;
+
+  • PRENOTA BUTTON:
+    <button type="submit" class="button primary" id="btnPrenotaNoOtp">Prenota</button>
+
+• Option to run an online media instead of a local media as alarm.

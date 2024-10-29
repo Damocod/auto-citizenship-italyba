@@ -1,6 +1,6 @@
 __pycache__/
 auto-citizenship-italyba_v1.0.0/
-dev/
-tests/
+# dev/
+# tests/
 
 config.ini

@@ -37,8 +37,10 @@ git clone https://github.com/Damocod/auto-citizenship-italyba.git
 - I don't know if Prenot@Mi has any policy and/or system that punishes the use of bots or even the repeated and constant attempts to access the appointment request page. Use this bot at your own risk.
 ---
 
+<div style="text-align: center;">
 Ciao (°◡°)
 
 This project is licensed under the MIT License.
 
 © 2024 Auto-Citizenship - ItalyBA. All Rights Reserved.
+</div>

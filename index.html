@@ -10,15 +10,18 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
-            background-color: #f4f4f4;
+            background-color: #181818;
+            /* Dark background */
+            color: #f0f0f0;
+            /* Light text color */
         }
 
         header {
             text-align: center;
-            padding: 10px;
+            padding: 3px;
             background: linear-gradient(to right, #008C4E, #FFFFFF, #FFFFFF, #CE2B37); /* Green, White, Red */
-            color: black;
-        }        
+            color: #000000;
+        }
 
         h1 {
             margin: 0;
@@ -26,14 +29,18 @@
 
         section {
             margin: 20px 0;
-            background: white;
+            background: #242424;
+            /* Dark grey for sections */
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         }
 
         pre {
-            background: #eee;
+            background: #333;
+            /* Darker background for code */
+            color: #f0f0f0;
+            /* Light text color */
             padding: 10px;
             border-radius: 5px;
             overflow-x: auto;
@@ -43,6 +50,17 @@
             text-align: center;
             margin-top: 20px;
             font-size: 0.9em;
+            color: #f0f0f0;
+        }
+
+        a {
+            color: #61dafb;
+            /* Light blue for links */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* Underline on hover */
         }
     </style>
 </head>
@@ -55,8 +73,9 @@
 
     <section>
         <h2>About</h2>
-        <p>Python bot for booking Italian citizenship reconstruction appointments at the Buenos Aires Consulate.</p>
-        
+        <p>Python bot for booking Italian citizenship reconstruction appointments at the Buenos Aires Consulate.
+        <br>To visit the main branch in github <a href="https://github.com/Damocod/auto-citizenship-italyba">click here</a>.</p>
+
         <h2>Requirements:</h2>
         <ul>
             <li><strong>Windows Operating System:</strong> Tested on Windows 10</li>
@@ -68,12 +87,16 @@
         <ul>
             <li><strong>Option 1:</strong> Clone</li>
             <pre><code>git clone https://github.com/Damocod/auto-citizenship-italyba.git</code></pre>
-            <li><strong>Option 2:</strong> <a href="https://github.com/Damocod/auto-citizenship-italyba/archive/refs/heads/main.zip">Download source as ZIP</a></li>
-            <li><strong>Option 3:</strong> <a href="https://github.com/Damocod/auto-citizenship-italyba/releases">Download a portable version</a></li>
+            <li><strong>Option 2:</strong> <a
+                    href="https://github.com/Damocod/auto-citizenship-italyba/archive/refs/heads/main.zip">Download
+                    source as ZIP</a></li>
+            <li><strong>Option 3:</strong> <a
+                    href="https://github.com/Damocod/auto-citizenship-italyba/releases">Download an executable version</a>
+            </li>
         </ul>
 
         <h2>How to use it</h2>
-        <p>Once downloaded or cloned read the README file and follow it's instructions</p>
+        <p>Once downloaded or cloned read the README file and follow its instructions.</p>
     </section>
 
     <footer>
